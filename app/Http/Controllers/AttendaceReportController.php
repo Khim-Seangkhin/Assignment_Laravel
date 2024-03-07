@@ -15,6 +15,7 @@ class AttendaceReportController extends Controller
     public function index()
     {
         $users = User::all();
+        // learn gitgub
         return view('attendace_reports.index', compact('users'));
     }
 }
